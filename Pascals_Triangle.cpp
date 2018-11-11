@@ -22,9 +22,9 @@ long factorial_producer_recursive(long initial);
 #ifndef MARMOSET_TESTING
 // MAIN FUNCTION --------------------------------------------------------------------------------------------------------------------------------------
 int main() {
-  std::cout << pascal_triangle(10);
+  std::cout << pascal_triangle(10); // CHANGE N VALUE HERE
   std::cout << std::endl;
-  std::cout << pascal_triangle_recursive(10);
+  std::cout << pascal_triangle_recursive(10); // CHANGE N VALUE HERE
 }
 // END OF MAIN FUNCTION -------------------------------------------------------------------------------------------------------------------------------
 #endif
